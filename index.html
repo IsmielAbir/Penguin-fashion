@@ -6,10 +6,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .bg {
+            background-color: rgba(129, 250, 250, 0.397);
+        }
+        
+        span {
+            color: #FABE4C;
+        }
+        
+        .button-link {
+            background-image: linear-gradient(cyan, rgb(18, 110, 110));
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        
+        .bg-1 {
+            background-color: rgba(208, 255, 255, 0.507);
+        }
+    </style>
 </head>
 
 <body>
 
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" width="292" height="40">
+                </a>
+
+
+                <div class="fs-4">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Link</a>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+    
+    
+                        </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Mens Fashion</a></li>
+                                    <li><a class="dropdown-item" href="#">Womens Fashion</a></li>
+
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active">Contact Us</a>
+                            </li>
+                        </ul>
+
+
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+
+    </header>
+
+
+    <main>
+
+        <section class="d-flex justify-content-evenly bg-1">
+            <div>
+                <br><br>
+                <h1><span>BE THE PENGUIN</span><br>OF WINTER</h1>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, repellat? <br> Quos explicabo rerum unde modi nesciunt ad eaque eum voluptate adipisci? <br> Minus nesciunt placeat praesentium?</p>
+                <br>
+
+
+                <a class="button-link" href=""><img src="icons/shopping-cart 1.png" width="24px" height="24px" alt=""> BUY NOW</a>
+
+            </div>
+
+            <div>
+                <img src="images/model.png" width="350" height="375" alt="">
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
